@@ -5,7 +5,28 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
+
+    <!-- NuGet Package Metadata -->
+    <PackageId>Mavusi.CallbackForge</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Mavusi</Authors>
+    <Company>Mavusi</Company>
+    <Product>CallbackForge</Product>
+    <Description>Production-grade asynchronous API handler for .NET 8/9/10. Handles HTTP requests asynchronously with background processing, automatic retries, callback delivery, and pluggable storage/queue implementations. Supports Redis, Azure Service Bus, SQL Server, PostgreSQL, and MongoDB.</Description>
+    <PackageTags>async;callback;background-jobs;http;queue;redis;azure;sql;postgresql;mongodb;retry;webhook</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/mavusi/Mavusi.CallbackForge</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mavusi/Mavusi.CallbackForge</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReleaseNotes>Initial release with multi-framework support for .NET 8, 9, and 10.</PackageReleaseNotes>
+    <Copyright>Copyright © Mavusi 2025</Copyright>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
