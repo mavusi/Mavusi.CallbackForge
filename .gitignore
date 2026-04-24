@@ -5,3 +5,8 @@
 /.vs
 /Mavusi.CallbackForge/bin/Debug/net8.0
 /Mavusi.CallbackForge/obj
+/Mavusi.CallbackForge/bin/Debug
+/Mavusi.CallbackForge.Sample/bin/Debug
+/Mavusi.CallbackForge.Sample/obj
+/Mavusi.CallbackForge.WebApi/bin/Debug
+/Mavusi.CallbackForge.WebApi/obj
