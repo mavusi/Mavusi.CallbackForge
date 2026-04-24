@@ -1,9 +1,10 @@
 # Mavusi.CallbackForge
 
-A production-grade asynchronous API handler for .NET 8 that submits HTTP requests to third-party services, returns immediate "accepted" responses, executes requests in the background, and delivers results to callback endpoints.
+A production-grade asynchronous API handler for .NET 8, 9, and 10 that submits HTTP requests to third-party services, returns immediate "accepted" responses, executes requests in the background, and delivers results to callback endpoints.
 
 ## Features
 
+✅ **Multi-Target Support** - Compatible with .NET 8, 9, and 10  
 ✅ **Production-Ready Architecture** - Layered design with clear separation of concerns  
 ✅ **Asynchronous Processing** - Non-blocking job submission with background execution  
 ✅ **Reliable Retries** - Exponential backoff with jitter for failed requests  

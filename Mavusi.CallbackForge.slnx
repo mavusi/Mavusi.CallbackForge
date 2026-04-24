@@ -1,3 +1,5 @@
 <Solution>
+  <Project Path="Mavusi.CallbackForge.Sample/Mavusi.CallbackForge.Sample.csproj" />
+  <Project Path="Mavusi.CallbackForge.WebApi/Mavusi.CallbackForge.WebApi.csproj" />
   <Project Path="Mavusi.CallbackForge/Mavusi.CallbackForge.csproj" />
 </Solution>

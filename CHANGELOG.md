@@ -5,6 +5,16 @@ All notable changes to CallbackForge will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Added
+- **Multi-Target Framework Support** - Now supports .NET 8, 9, and 10
+- C# latest language version support
+
+### Changed
+- Updated all projects to use multi-targeting (net8.0;net9.0;net10.0)
+- Fixed ambiguous reference between `Mavusi.CallbackForge.Models.HttpRequest` and `Microsoft.AspNetCore.Http.HttpRequest` in WebApi project
+
 ## [1.0.0-alpha] - 2024-01-15
 
 ### Added

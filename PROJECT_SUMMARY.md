@@ -2,7 +2,7 @@
 
 ## What Was Built
 
-A **production-grade asynchronous API handler** for .NET 8 that:
+A **production-grade asynchronous API handler** for .NET 8, 9, and 10 that:
 - Accepts HTTP requests
 - Returns immediate "accepted" responses
 - Executes requests in the background
@@ -255,4 +255,4 @@ MIT (suggested)
 
 ---
 
-**Built with .NET 8, following production-grade patterns and SOLID principles.**
+**Built with .NET 8/9/10 multi-targeting, following production-grade patterns and SOLID principles.**

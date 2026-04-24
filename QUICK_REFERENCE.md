@@ -368,4 +368,4 @@ GET http://localhost:5000/api/jobs/{jobId}
 
 ---
 
-**Version**: 1.0.0 | **Target**: .NET 8 | **License**: MIT
+**Version**: 1.0.0 | **Target**: .NET 8, 9, 10 | **License**: MIT

@@ -32,7 +32,7 @@ app.MapPost("/api/jobs", async (
 {
     try
     {
-        var httpRequest = new HttpRequest
+        var httpRequest = new Mavusi.CallbackForge.Models.HttpRequest
         {
             Url = request.Url,
             Method = request.Method,
